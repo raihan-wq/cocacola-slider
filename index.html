@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <pre id="target">RAIHAN</pre> -->
+    <section>
+        <div class="slider">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    
+                  <div class="swiper-slide"><img src="img/cocacola1.png" alt=""></div>
+                  <div class="swiper-slide"><img src="img/cocacola2.png" alt=""></div>
+                  <div class="swiper-slide"><img src="img/cocacola3.png" alt=""></div>
+                  <div class="swiper-slide"><img src="img/cocacola4.png" alt=""></div>
+                  <div class="swiper-slide"><img src="img/cocacola5.png" alt=""></div>
+                  <div class="swiper-slide"><img src="img/cocacola6.png" alt=""></div>
+                  <div class="swiper-slide"><img src="img/cocacola7.png" alt=""></div>
+                  <div class="swiper-slide"><img src="img/cocacola8.png" alt=""></div>
+                  <div class="swiper-slide"><img src="img/cocacola9.png" alt=""></div>
+                  <div class="swiper-slide"><img src="img/cocacola10.png" alt=""></div>
+                  <div class="swiper-slide"><img src="img/cocacola11.png" alt=""></div>
+                  <div class="swiper-slide"><img src="img/cocacola12.png" alt=""></div>
+                 
+                  
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+              </div>
+        </div>
+    </section>
+    <script src="swiper.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+          effect: 'coverflow',
+          grabCursor: true,
+          centeredSlides: true,
+          slidesPerView: 'auto',
+          coverflowEffect: {
+            rotate: 0,
+            stretch: 0,
+            depth: 0,
+            modifier: 1,
+            slideShadows: true,
+          },
+          loop:true,
+        });
+      </script>
+      
+</body>
+</html>
